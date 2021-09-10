@@ -5,9 +5,10 @@
 #
 
 $(call inherit-product, device/xiaomi/venus/device.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/dot/config/BoardConfigDot.mk)
 
-PRODUCT_NAME := lineage_venus
+PRODUCT_NAME := dot_venus
 PRODUCT_DEVICE := venus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 11
