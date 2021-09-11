@@ -16,7 +16,7 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 EXTRA_FOD_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1440
 
-PRODUCT_NAME := dot_venus
+PRODUCT_NAME := evolution_venus
 PRODUCT_DEVICE := venus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 11
