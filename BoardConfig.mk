@@ -12,8 +12,10 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/venus
 
+TARGET_PREBUILT_DTBO := device/xiaomi/venus/dtbo.img
+
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := venus
+TARGET_BOOTLOADER_BOARD_NAME := lahaina
 
 # HIDL
 ODM_MANIFEST_FILES := $(DEVICE_PATH)/manifest.xml
