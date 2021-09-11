@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_venus.mk
+    $(LOCAL_DIR)/evolution_venus.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_venus-user \
-    dot_venus-userdebug \
-    dot_venus-eng
+    evolution_venus-user \
+    evolution_venus-userdebug \
+    evolution_venus-eng
