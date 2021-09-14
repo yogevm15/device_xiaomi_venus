@@ -23,6 +23,3 @@ PRODUCT_MODEL := Mi 11
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# Build fingerprint
-BUILD_FINGERPRINT := "Xiaomi/venus/venus:11/RKQ1.200928.002/21.9.1:user/release-keys"
