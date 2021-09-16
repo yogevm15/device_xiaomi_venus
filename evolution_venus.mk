@@ -19,10 +19,10 @@ TARGET_BOOT_ANIMATION_RES := 1440
 PRODUCT_NAME := evolution_venus
 PRODUCT_DEVICE := venus
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := M2011K2C
+PRODUCT_MODEL := Mi 11
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Build fingerprint
-BUILD_FINGERPRINT := "Xiaomi/venus/venus:11/RKQ1.200928.002/21.9.1:user/release-keys"
+BUILD_FINGERPRINT := "Xiaomi/venus/venus:11/RKQ1.200928.002/V12.0.22.0.RKBCNXM:user/release-keys"
