@@ -20,3 +20,8 @@ ODM_MANIFEST_FILES := $(DEVICE_PATH)/manifest.xml
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := venus
+
+
+PRODUCT_PACKAGES += \
+    qcom_decrypt \
+    qcom_decrypt_fbe
