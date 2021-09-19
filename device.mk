@@ -29,7 +29,6 @@ PRODUCT_PACKAGES += \
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
 TW_INCLUDE_FBE_METADATA_DECRYPT := true
-PLATFORM_VERSION := 16.1.0
 BOARD_USES_QCOM_FBE_DECRYPTION := true
 
 TARGET_RECOVERY_DEVICE_MODULES += libion libandroidicu vendor.display.config@1.0 vendor.display.config@2.0 libdisplayconfig.qti device_manifest.xml system_manifest.xml
