@@ -7,6 +7,9 @@
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
+# Inherit from venus twrp
+include device/twrp/venus/twrp.mk
+
 # Inherit proprietary blobs
 -include vendor/xiaomi/venus/BoardConfigVendor.mk
 
